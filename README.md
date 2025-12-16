@@ -6,6 +6,8 @@ This project is a utility designed to analyze Power BI projects (specifically .p
 
 File Format: The Power BI file must be saved as a .pbip (Power BI Project) format.
 
+Report must be published: Power BI Report must be published to a workspace (Other than My Workspace)
+
 Note: Do not use .pbix or .pbir files directly.
 
 **Code Structure**
@@ -13,9 +15,10 @@ The project consists of the following modules/readers:
 
 - Bookmark Reader
 - Page Reader
-- Bookmark Page Reader
-- Log File Reader
-- Pbip Log Reader (Primary Module)
+- Bookmark & Page Reader
+- Visual Log Extractor (pbi playground)
+- Visual Log Reader
+- Pbip Reader (Primary Module)
 
 **Workflow & Algorithm**
 The process involves a hybrid approach using Python for file parsing and Java/Browser Console for visual extraction.
