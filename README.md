@@ -44,9 +44,9 @@ This process involves a hybrid approach using Python for file parsing and Java/B
 | Visual ID             |          | Visual ID             |          | Type (Visual Type)    |
 | Visual Type           |          | Visual Type           |          | Title (Visual Title)  |
 | Mode                  |          | Action Type           |          +-----------------------+
-| Selected Visual       |          |                       |                      |
-| Applied Filters       |          |                       |                      |
-| Slicer Selections     |          |                       |                      |
+| Selected Visual       |          | Action Name           |                      |
+| Applied Filters       |          | Visual Columns        |                      |
+| Slicer Selections     |          | Visual Filters        |                      |
 |                       |          |                       |                      |
 | Visual Title <--------|----------|--- Visual Title <-----|----------------------+
 | Page Name <-----------|----------|-----------------------+
